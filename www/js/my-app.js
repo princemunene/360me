@@ -380,6 +380,7 @@ var email =  $('#ContactEmail').val();
 var comment =  $('#ContactComment').val();
 var server='192.168.0.100';
 
+
 if(name==''){
 $().customAlert();
 alert('Error!', '<p>Enter the Name of the Prospect!</p>');
